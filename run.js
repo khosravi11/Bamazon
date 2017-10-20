@@ -3,8 +3,8 @@ var mysql = require("mysql");
 
 var connection = mysql.createConnection({
   host: '127.0.0.1',
-  user: 'saam',
-  password: 'S@amk1992',
+  user: 'root',
+  password: '',
   database: 'bamazon'
 });
 
